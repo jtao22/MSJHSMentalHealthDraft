@@ -24,7 +24,7 @@ body{
 	text-transform: uppercase;
 }
 .nav-link-wrapper{
-	height: 30px;
+	height: 60px;
 	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.5s;
 }
