@@ -6,9 +6,10 @@
     "devStart": "nodemon server.js",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Jonathan Tao",
   "license": "ISC",
   "dependencies": {
+    "react-router-dom": "^5.2.0",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
