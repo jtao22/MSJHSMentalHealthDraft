@@ -1,2 +1,2 @@
-# MSJHSMentalHealthDraft
-Draft code for website
+# MSJPC
+This repo contains the code for MSJ Peer Counseling, an organization/website I co-founded and developed that serves to help highschool students with the stress of academic life. Whether it be stress induced by academics, family, or other obstacles to mental well-being, MSJPC provides students with various resources to help make their highschool experience as smooth as possible. The features include: information on alternatives to self-harm, links to topical scientific articles, live chat with login page/password authentication, question forum, inspirational page, and more.
