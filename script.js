@@ -2,8 +2,7 @@ const socket = io('http://localhost:3000')
 const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('send-container')
 const messageInput = document.getElementById('message-input')
-const bleh = prompt('What is your FUSD ID?')
-const name = "User " + bleh.substr(bleh.length-3)
+const name = prompt('What is your Username?')
 appendMessage('You joined')
 socket.emit('new-user', name)
 socket.on('chat-message', data => {
@@ -27,3 +26,4 @@ function appendMessage(message) {
   messageElement.innerText = message
   messageContainer.append(messageElement)
 }
+
