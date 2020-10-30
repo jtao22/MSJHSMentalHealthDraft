@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
             setFormMessage(loginForm, "error", "Invalid username/password combination");
         }
         else{
-            window.location.replace("./live.html")
+            window.location.replace("../live.html")
         }
     });
     document.querySelectorAll(".form__input").forEach(inputElement => {
